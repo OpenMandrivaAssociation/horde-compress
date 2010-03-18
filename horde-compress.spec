@@ -5,14 +5,14 @@
 
 Name:          horde-compress
 Version:       0.0.2
-Release:       %mkrel 1
+Release:       %mkrel 2
 Summary:       Horde Compression API
 License:       LGPL
 Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-Requires(pre): %{_bindir}/pear
+Requires(pre): php-pear
 Requires:      horde-util
 Requires:      php-pear
 Requires:      php-gettext
