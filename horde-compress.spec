@@ -5,7 +5,7 @@
 
 Name:          horde-compress
 Version:       0.0.2
-Release:       %mkrel 3
+Release:       4
 Summary:       Horde Compression API
 License:       LGPL
 Group:         Networking/Mail
